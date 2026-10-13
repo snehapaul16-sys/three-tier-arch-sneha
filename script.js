@@ -6,7 +6,7 @@ async function fetchUserData() {
     }
 
     try {
-        const response = await fetch(`https://esyeh8s3od.execute-api.eu-central-1.amazonaws.com/prod/users?userId=${userId}`);
+        const response = await fetch(`https://qll1vqlm3j.execute-api.us-east-1.amazonaws.com/prod/users?userId=${userId}`);
         const data = await response.json();
         const userDetails = document.getElementById('userDetails');
         
